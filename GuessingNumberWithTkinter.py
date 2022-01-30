@@ -26,12 +26,8 @@ class Random :
                 self.Result.configure(text = "You'r Guessed Number Is Greater Than Guessing Number ")
             else:
                 self.Result.configure(text = "You'r Guessed Number Is Less Than Guessing Number ")
-
-            
-
-
-
-    def __init__(self):
+           
+     def __init__(self):
        
         L1 = Label(WIN, text = "<-----Guessing Number--->", fg="white", bg="black", font=("arial",13))
         L1.grid(row=0, column=WIDTH//2 , padx=5, pady=5)
